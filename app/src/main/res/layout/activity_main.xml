@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/material_on_primary_disabled">
 
 
     <LinearLayout
@@ -24,7 +25,8 @@
             android:paddingTop="12dp"
             android:fontFamily="@font/kh_ba_phnom_limon_s1"
             android:text="ថតរូបអត្តសញ្ញប័ណ្ណ"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
     </LinearLayout>
 
 <LinearLayout
@@ -51,10 +53,10 @@
         <ImageView
             android:id="@+id/iv"
             android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_height="261dp"
             android:layout_gravity="center"
             android:background="@drawable/dox1"
-            android:src="@drawable/acc" />
+            android:src="@drawable/id" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -64,7 +66,6 @@
             android:text="រូបភាព"
             android:textColor="#1749DF"
             android:textSize="20sp" />
-
 
     </LinearLayout>
 
